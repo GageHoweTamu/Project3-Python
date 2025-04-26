@@ -1,0 +1,21 @@
+[0.931s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build --no-deps symlink_data --force
+[1.339s] running develop
+[1.601s] running egg_info
+[1.624s] writing project3.egg-info/PKG-INFO
+[1.625s] writing dependency_links to project3.egg-info/dependency_links.txt
+[1.625s] writing entry points to project3.egg-info/entry_points.txt
+[1.625s] writing requirements to project3.egg-info/requires.txt
+[1.625s] writing top-level names to project3.egg-info/top_level.txt
+[1.674s] reading manifest file 'project3.egg-info/SOURCES.txt'
+[1.675s] writing manifest file 'project3.egg-info/SOURCES.txt'
+[1.699s] running build_ext
+[1.699s] Creating /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3.egg-link (link to .)
+[1.700s] Installing lidar_processor script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.700s] Installing marker_publisher script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.701s] Installing person_tracker script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.701s] 
+[1.701s] Installed /home/sicou2/CSCE452/Project3/Project3-Python/build/project3
+[1.701s] running symlink_data
+[1.701s] symbolically linking /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/resource/project3 -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/ament_index/resource_index/packages
+[1.701s] symbolically linking /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/package.xml -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/project3
+[1.740s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build --no-deps symlink_data --force
