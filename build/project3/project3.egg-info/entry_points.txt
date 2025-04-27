@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_processor = project3.lidar_processor:main
+marker_publisher = project3.marker_publisher:main
+person_tracker = project3.person_tracker:main

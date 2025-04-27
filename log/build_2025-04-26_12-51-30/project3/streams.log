@@ -1,0 +1,49 @@
+[1.085s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build install --record /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log --single-version-externally-managed install_data
+[1.415s] running egg_info
+[1.415s] creating ../../build/project3/project3.egg-info
+[1.440s] writing ../../build/project3/project3.egg-info/PKG-INFO
+[1.441s] writing dependency_links to ../../build/project3/project3.egg-info/dependency_links.txt
+[1.441s] writing entry points to ../../build/project3/project3.egg-info/entry_points.txt
+[1.441s] writing requirements to ../../build/project3/project3.egg-info/requires.txt
+[1.441s] writing top-level names to ../../build/project3/project3.egg-info/top_level.txt
+[1.442s] writing manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.491s] reading manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.492s] adding license file 'LICENSE'
+[1.492s] writing manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.493s] running build
+[1.493s] running build_py
+[1.493s] creating /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build
+[1.493s] creating /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib
+[1.493s] creating /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.493s] copying project3/lidar_processor.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.494s] copying project3/marker_publisher.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.494s] copying project3/utils.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.494s] copying project3/__init__.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.494s] copying project3/person_tracker.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.494s] running install
+[1.501s] running install_lib
+[1.526s] creating /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.527s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/lidar_processor.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.527s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/marker_publisher.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.527s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/utils.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.527s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/__init__.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.527s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/person_tracker.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.531s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/lidar_processor.py to lidar_processor.cpython-312.pyc
+[1.531s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/marker_publisher.py to marker_publisher.cpython-312.pyc
+[1.531s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/utils.py to utils.cpython-312.pyc
+[1.531s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/__init__.py to __init__.cpython-312.pyc
+[1.533s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/person_tracker.py to person_tracker.cpython-312.pyc
+[1.533s] running install_data
+[1.533s] creating /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/ament_index
+[1.533s] creating /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/ament_index/resource_index
+[1.533s] creating /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/ament_index/resource_index/packages
+[1.533s] copying resource/project3 -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/ament_index/resource_index/packages
+[1.533s] copying package.xml -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/share/project3
+[1.533s] running install_egg_info
+[1.559s] Copying ../../build/project3/project3.egg-info to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3-0.0.0-py3.12.egg-info
+[1.560s] running install_scripts
+[1.731s] Installing lidar_processor script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.731s] Installing marker_publisher script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.731s] Installing person_tracker script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.732s] writing list of installed files to '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log'
+[1.771s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build install --record /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log --single-version-externally-managed install_data
