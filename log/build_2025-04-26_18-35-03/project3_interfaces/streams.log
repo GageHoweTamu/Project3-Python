@@ -1,0 +1,17 @@
+[0.011s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces
+[0.028s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.260s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.339s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.745s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.745s]   Packages installing interfaces must include
+[0.745s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.746s]   package.xml
+[0.746s] Call Stack (most recent call first):
+[0.746s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[0.746s] 
+[0.746s] [0m
+[0.746s] -- Configuring incomplete, errors occurred!
+[0.752s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces

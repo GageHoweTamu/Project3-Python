@@ -1,0 +1,4 @@
+filterpy
+numpy
+scikit-learn
+setuptools

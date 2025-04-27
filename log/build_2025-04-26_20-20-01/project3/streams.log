@@ -1,0 +1,24 @@
+[0.963s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build install --record /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log --single-version-externally-managed install_data
+[1.270s] running egg_info
+[1.294s] writing ../../build/project3/project3.egg-info/PKG-INFO
+[1.294s] writing dependency_links to ../../build/project3/project3.egg-info/dependency_links.txt
+[1.295s] writing entry points to ../../build/project3/project3.egg-info/entry_points.txt
+[1.295s] writing requirements to ../../build/project3/project3.egg-info/requires.txt
+[1.295s] writing top-level names to ../../build/project3/project3.egg-info/top_level.txt
+[1.344s] reading manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.345s] adding license file 'LICENSE'
+[1.346s] writing manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.346s] running build
+[1.346s] running build_py
+[1.346s] running install
+[1.353s] running install_lib
+[1.377s] running install_data
+[1.377s] running install_egg_info
+[1.405s] removing '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3-0.0.0-py3.12.egg-info' (and everything under it)
+[1.405s] Copying ../../build/project3/project3.egg-info to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3-0.0.0-py3.12.egg-info
+[1.406s] running install_scripts
+[1.569s] Installing lidar_processor script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.570s] Installing marker_publisher script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.570s] Installing person_tracker script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.570s] writing list of installed files to '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log'
+[1.603s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build install --record /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log --single-version-externally-managed install_data

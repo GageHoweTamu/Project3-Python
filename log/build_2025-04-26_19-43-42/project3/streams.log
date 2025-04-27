@@ -1,0 +1,30 @@
+[0.970s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build install --record /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log --single-version-externally-managed install_data
+[1.279s] running egg_info
+[1.302s] writing ../../build/project3/project3.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/project3/project3.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/project3/project3.egg-info/entry_points.txt
+[1.303s] writing requirements to ../../build/project3/project3.egg-info/requires.txt
+[1.303s] writing top-level names to ../../build/project3/project3.egg-info/top_level.txt
+[1.354s] reading manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.354s] adding license file 'LICENSE'
+[1.355s] writing manifest file '../../build/project3/project3.egg-info/SOURCES.txt'
+[1.355s] running build
+[1.355s] running build_py
+[1.356s] copying project3/utils.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.356s] copying project3/kalman_filter.py -> /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3
+[1.356s] running install
+[1.363s] running install_lib
+[1.386s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/utils.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.387s] copying /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build/lib/project3/kalman_filter.py -> /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3
+[1.388s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/utils.py to utils.cpython-312.pyc
+[1.388s] byte-compiling /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3/kalman_filter.py to kalman_filter.cpython-312.pyc
+[1.396s] running install_data
+[1.396s] running install_egg_info
+[1.422s] removing '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3-0.0.0-py3.12.egg-info' (and everything under it)
+[1.422s] Copying ../../build/project3/project3.egg-info to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages/project3-0.0.0-py3.12.egg-info
+[1.423s] running install_scripts
+[1.585s] Installing lidar_processor script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.585s] Installing marker_publisher script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.585s] Installing person_tracker script to /home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/project3
+[1.585s] writing list of installed files to '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log'
+[1.613s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sicou2/CSCE452/Project3/Project3-Python/build/project3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sicou2/CSCE452/Project3/Project3-Python/install/project3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project3 build --build-base /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/build install --record /home/sicou2/CSCE452/Project3/Project3-Python/build/project3/install.log --single-version-externally-managed install_data

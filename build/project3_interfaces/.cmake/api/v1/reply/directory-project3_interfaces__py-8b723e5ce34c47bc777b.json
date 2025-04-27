@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "project3_interfaces__py",
+		"source" : "/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces/project3_interfaces__py"
+	}
+}
