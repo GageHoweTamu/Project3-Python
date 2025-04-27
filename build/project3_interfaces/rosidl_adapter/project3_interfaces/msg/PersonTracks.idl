@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from project3_interfaces/msg/PersonTracks.msg
+// generated code does not contain a copyright notice
+
+#include "project3_interfaces/msg/PersonTrack.idl"
+
+module project3_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "an array of PersonTrack")
+    struct PersonTracks {
+      sequence<project3_interfaces::msg::PersonTrack> tracks;
+    };
+  };
+};

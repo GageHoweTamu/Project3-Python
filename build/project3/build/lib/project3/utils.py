@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.cluster import DBSCAN
-from filterpy.kalman import KalmanFilter
+from project3.kalman_filter import KalmanFilter
 
 def polar_to_cartesian(ranges, angles):
     """Convert polar coordinates to Cartesian"""

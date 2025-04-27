@@ -1,0 +1,8 @@
+{
+  "package_name": "project3_interfaces",
+  "non_idl_tuples": [
+    "/home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces:msg/PersonCandidates.msg",
+    "/home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces:msg/PersonTrack.msg",
+    "/home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces:msg/PersonTracks.msg"
+  ]
+}

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from project3_interfaces/msg/PersonCandidates.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module project3_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "a set of raw detections from the lidar processor")
+    struct PersonCandidates {
+      sequence<geometry_msgs::msg::Point> positions;
+    };
+  };
+};

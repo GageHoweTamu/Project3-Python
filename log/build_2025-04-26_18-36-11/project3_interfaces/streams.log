@@ -1,0 +1,282 @@
+[0.011s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces
+[0.027s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.256s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.331s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.333s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.055s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.339s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.483s] -- Found PythonExtra: /usr/bin/python3  
+[2.947s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.024s] -- Configuring done (3.0s)
+[3.076s] -- Generating done (0.0s)
+[3.089s] -- Build files have been written to: /home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces
+[3.097s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces
+[3.098s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces -- -j4 -l4
+[3.158s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.168s] [  1%] Built target ament_cmake_python_copy_project3_interfaces
+[3.404s] [  1%] Built target project3_interfaces__rosidl_generator_type_description
+[3.417s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.421s] running egg_info
+[3.424s] creating project3_interfaces.egg-info
+[3.435s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.446s] writing project3_interfaces.egg-info/PKG-INFO
+[3.447s] writing dependency_links to project3_interfaces.egg-info/dependency_links.txt
+[3.447s] writing top-level names to project3_interfaces.egg-info/top_level.txt
+[3.447s] writing manifest file 'project3_interfaces.egg-info/SOURCES.txt'
+[3.518s] reading manifest file 'project3_interfaces.egg-info/SOURCES.txt'
+[3.520s] writing manifest file 'project3_interfaces.egg-info/SOURCES.txt'
+[3.551s] [  5%] Built target ament_cmake_python_build_project3_interfaces_egg
+[3.810s] [  5%] Built target project3_interfaces__cpp
+[3.872s] [  9%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_candidates__description.c.o[0m
+[3.872s] [  9%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_candidates__type_support.c.o[0m
+[3.872s] [ 11%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_track__description.c.o[0m
+[3.872s] [ 12%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_candidates__functions.c.o[0m
+[3.914s] [ 14%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_track__functions.c.o[0m
+[3.924s] [ 16%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_track__type_support.c.o[0m
+[3.924s] [ 18%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_tracks__description.c.o[0m
+[3.946s] [ 20%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_tracks__functions.c.o[0m
+[3.965s] [ 22%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project3_interfaces/msg/detail/person_tracks__type_support.c.o[0m
+[4.002s] [ 24%] [32m[1mLinking C shared library libproject3_interfaces__rosidl_generator_c.so[0m
+[4.047s] [ 24%] Built target project3_interfaces__rosidl_generator_c
+[4.065s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.065s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.065s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.065s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.369s] [ 33%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/project3_interfaces/msg/person_candidates__type_support.cpp.o[0m
+[4.425s] [ 35%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/project3_interfaces/msg/detail/person_candidates__type_support.cpp.o[0m
+[4.447s] [ 37%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/project3_interfaces/msg/detail/person_candidates__type_support.c.o[0m
+[4.487s] [ 38%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/project3_interfaces/msg/detail/person_candidates__type_support_c.cpp.o[0m
+[4.500s] [ 40%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/project3_interfaces/msg/detail/person_track__type_support.c.o[0m
+[4.547s] [ 42%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/project3_interfaces/msg/detail/person_tracks__type_support.c.o[0m
+[4.597s] [ 44%] [32m[1mLinking C shared library libproject3_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.640s] [ 44%] Built target project3_interfaces__rosidl_typesupport_introspection_c
+[4.651s] [ 46%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/project3_interfaces/msg/detail/person_track__type_support.cpp.o[0m
+[4.771s] [ 48%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/project3_interfaces/msg/person_track__type_support.cpp.o[0m
+[4.858s] [ 50%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/project3_interfaces/msg/person_tracks__type_support.cpp.o[0m
+[4.992s] [ 51%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/project3_interfaces/msg/detail/person_tracks__type_support.cpp.o[0m
+[5.003s] [ 53%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/project3_interfaces/msg/detail/person_track__type_support_c.cpp.o[0m
+[5.138s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.229s] [ 57%] [32m[1mLinking CXX shared library libproject3_interfaces__rosidl_typesupport_cpp.so[0m
+[5.283s] [ 57%] Built target project3_interfaces__rosidl_typesupport_cpp
+[5.293s] [ 59%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/project3_interfaces/msg/detail/person_tracks__type_support_c.cpp.o[0m
+[5.390s] [ 61%] [32m[1mLinking CXX shared library libproject3_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.494s] [ 62%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/project3_interfaces/msg/person_candidates__type_support.cpp.o[0m
+[5.510s] [ 62%] Built target project3_interfaces__rosidl_typesupport_introspection_cpp
+[5.519s] [ 64%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/project3_interfaces/msg/person_track__type_support.cpp.o[0m
+[5.562s] [ 66%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.567s] [ 68%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/project3_interfaces/msg/person_tracks__type_support.cpp.o[0m
+[5.662s] [ 70%] [32m[1mLinking CXX shared library libproject3_interfaces__rosidl_typesupport_c.so[0m
+[5.725s] [ 70%] Built target project3_interfaces__rosidl_typesupport_c
+[5.881s] [ 72%] [32m[1mLinking CXX shared library libproject3_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.944s] [ 72%] Built target project3_interfaces__rosidl_typesupport_fastrtps_c
+[5.993s] [ 77%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project3_interfaces/msg/detail/dds_fastrtps/person_track__type_support.cpp.o[0m
+[5.993s] [ 77%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project3_interfaces/msg/detail/dds_fastrtps/person_candidates__type_support.cpp.o[0m
+[5.993s] [ 77%] [32mBuilding CXX object CMakeFiles/project3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project3_interfaces/msg/detail/dds_fastrtps/person_tracks__type_support.cpp.o[0m
+[6.513s] [ 79%] [32m[1mLinking CXX shared library libproject3_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.604s] [ 79%] Built target project3_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.627s] [ 79%] Built target project3_interfaces
+[6.655s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.103s] [ 81%] Built target project3_interfaces__py
+[7.126s] [ 87%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/project3_interfaces/msg/_person_track_s.c.o[0m
+[7.126s] [ 87%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/project3_interfaces/msg/_person_candidates_s.c.o[0m
+[7.127s] [ 87%] [32mBuilding C object CMakeFiles/project3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/project3_interfaces/msg/_person_tracks_s.c.o[0m
+[7.297s] [ 88%] [32m[1mLinking C shared library libproject3_interfaces__rosidl_generator_py.so[0m
+[7.352s] [ 88%] Built target project3_interfaces__rosidl_generator_py
+[7.376s] [ 92%] [32mBuilding C object CMakeFiles/project3_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/project3_interfaces/_project3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.377s] [ 94%] [32mBuilding C object CMakeFiles/project3_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/project3_interfaces/_project3_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.377s] [ 94%] [32mBuilding C object CMakeFiles/project3_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/project3_interfaces/_project3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.500s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/project3_interfaces/project3_interfaces_s__rosidl_typesupport_c.so[0m
+[7.500s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/project3_interfaces/project3_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.509s] [100%] [32m[1mLinking C shared module rosidl_generator_py/project3_interfaces/project3_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.538s] [100%] Built target project3_interfaces_s__rosidl_typesupport_c
+[7.538s] [100%] Built target project3_interfaces_s__rosidl_typesupport_introspection_c
+[7.549s] [100%] Built target project3_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.563s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces -- -j4 -l4
+[7.575s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces
+[7.585s] -- Install configuration: ""
+[7.585s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/ament_index/resource_index/rosidl_interfaces/project3_interfaces
+[7.585s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonCandidates.json
+[7.586s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonTrack.json
+[7.586s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonTracks.json
+[7.586s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces
+[7.586s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg
+[7.586s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/person_tracks.h
+[7.586s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/person_candidates.h
+[7.587s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail
+[7.587s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__type_support.h
+[7.587s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__type_support.h
+[7.587s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__struct.h
+[7.588s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__type_support.c
+[7.588s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__type_support.h
+[7.588s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__functions.c
+[7.588s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__functions.c
+[7.588s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__functions.h
+[7.588s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__description.c
+[7.589s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__description.c
+[7.589s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__functions.h
+[7.589s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__functions.h
+[7.589s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__type_support.c
+[7.589s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__description.c
+[7.589s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__type_support.c
+[7.590s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__struct.h
+[7.590s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__functions.c
+[7.590s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__struct.h
+[7.590s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.590s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/person_track.h
+[7.591s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/library_path.sh
+[7.591s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/library_path.dsv
+[7.591s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_generator_c.so
+[7.592s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_generator_c.so" to ""
+[7.592s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces
+[7.592s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg
+[7.592s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail
+[7.592s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__rosidl_typesupport_fastrtps_c.h
+[7.592s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__rosidl_typesupport_fastrtps_c.h
+[7.592s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__rosidl_typesupport_fastrtps_c.h
+[7.592s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.593s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.593s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.594s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces
+[7.594s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg
+[7.594s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail
+[7.594s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__type_support.c
+[7.594s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__rosidl_typesupport_introspection_c.h
+[7.594s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__rosidl_typesupport_introspection_c.h
+[7.594s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__type_support.c
+[7.594s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__type_support.c
+[7.594s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__rosidl_typesupport_introspection_c.h
+[7.595s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.595s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_introspection_c.so
+[7.595s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.595s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_c.so
+[7.596s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_c.so" to ""
+[7.596s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces
+[7.596s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/person_candidates.hpp
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/person_tracks.hpp
+[7.597s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__builder.hpp
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__struct.hpp
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__type_support.hpp
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__builder.hpp
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__type_support.hpp
+[7.597s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__struct.hpp
+[7.598s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__struct.hpp
+[7.598s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__traits.hpp
+[7.598s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__traits.hpp
+[7.598s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__builder.hpp
+[7.598s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__traits.hpp
+[7.599s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__type_support.hpp
+[7.599s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.599s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/person_track.hpp
+[7.599s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces
+[7.599s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg
+[7.599s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail
+[7.600s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/dds_fastrtps
+[7.600s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__rosidl_typesupport_fastrtps_cpp.hpp
+[7.600s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__rosidl_typesupport_fastrtps_cpp.hpp
+[7.600s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__rosidl_typesupport_fastrtps_cpp.hpp
+[7.600s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.600s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.601s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.601s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces
+[7.601s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg
+[7.601s] -- Up-to-date: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__rosidl_typesupport_introspection_cpp.hpp
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__rosidl_typesupport_introspection_cpp.hpp
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__type_support.cpp
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_candidates__type_support.cpp
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_tracks__type_support.cpp
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/include/project3_interfaces/project3_interfaces/msg/detail/person_track__rosidl_typesupport_introspection_cpp.hpp
+[7.602s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.603s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.603s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_cpp.so
+[7.604s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.604s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/pythonpath.sh
+[7.604s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/pythonpath.dsv
+[7.604s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces-0.1.0-py3.12.egg-info
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/_project3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.605s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg
+[7.606s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_track_s.c
+[7.606s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_track.py
+[7.606s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_candidates.py
+[7.606s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_tracks_s.c
+[7.606s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_tracks.py
+[7.606s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_candidates_s.c
+[7.607s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/__init__.py
+[7.607s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.607s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.607s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/_project3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.607s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/__init__.py
+[7.608s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_c.so
+[7.608s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/_project3_interfaces_s.ep.rosidl_typesupport_c.c
+[7.653s] Listing '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces'...
+[7.653s] Compiling '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/__init__.py'...
+[7.653s] Listing '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg'...
+[7.653s] Compiling '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/__init__.py'...
+[7.653s] Compiling '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_candidates.py'...
+[7.653s] Compiling '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_track.py'...
+[7.653s] Compiling '/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/msg/_person_tracks.py'...
+[7.659s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.660s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.660s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.661s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.661s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_c.so
+[7.661s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/python3.12/site-packages/project3_interfaces/project3_interfaces_s__rosidl_typesupport_c.so" to ""
+[7.662s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_generator_py.so
+[7.662s] -- Set non-toolchain portion of runtime path of "/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/lib/libproject3_interfaces__rosidl_generator_py.so" to ""
+[7.662s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonCandidates.idl
+[7.663s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonTrack.idl
+[7.663s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonTracks.idl
+[7.663s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonCandidates.msg
+[7.663s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonTrack.msg
+[7.663s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/msg/PersonTracks.msg
+[7.664s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/ament_index/resource_index/package_run_dependencies/project3_interfaces
+[7.664s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/ament_index/resource_index/parent_prefix_path/project3_interfaces
+[7.664s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/ament_prefix_path.sh
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/ament_prefix_path.dsv
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/path.sh
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/environment/path.dsv
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/local_setup.bash
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/local_setup.sh
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/local_setup.zsh
+[7.665s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/local_setup.dsv
+[7.666s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/package.dsv
+[7.666s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/ament_index/resource_index/packages/project3_interfaces
+[7.666s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_generator_cExport.cmake
+[7.666s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.667s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.667s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.667s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.667s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.668s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_cExport.cmake
+[7.668s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.668s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_generator_cppExport.cmake
+[7.669s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.669s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.669s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.669s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.669s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_cppExport.cmake
+[7.670s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.670s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_generator_pyExport.cmake
+[7.670s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/export_project3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.670s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.670s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.671s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.671s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.671s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.671s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.672s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.672s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfacesConfig.cmake
+[7.672s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/cmake/project3_interfacesConfig-version.cmake
+[7.672s] -- Installing: /home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces/share/project3_interfaces/package.xml
+[7.675s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces

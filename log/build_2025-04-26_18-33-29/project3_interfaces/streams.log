@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces -DCMAKE_INSTALL_PREFIX=/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces
+[0.140s] -- The C compiler identification is GNU 13.3.0
+[0.242s] -- The CXX compiler identification is GNU 13.3.0
+[0.264s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.376s] -- Detecting C compile features
+[0.377s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.499s] -- Detecting CXX compiler ABI info - done
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.511s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.677s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.802s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.950s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.379s] Error parsing '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces/package.xml':
+[3.288s] Traceback (most recent call last):
+[3.288s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[3.288s]     root = dom.parseString(data)
+[3.288s]            ^^^^^^^^^^^^^^^^^^^^^
+[3.288s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[3.288s]     return expatbuilder.parseString(string)
+[3.288s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.288s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[3.288s]     return builder.parseString(string)
+[3.288s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.288s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[3.289s]     parser.Parse(string, True)
+[3.289s] xml.parsers.expat.ExpatError: junk after document element: line 2, column 0
+[3.289s] 
+[3.289s] During handling of the above exception, another exception occurred:
+[3.289s] 
+[3.289s] Traceback (most recent call last):
+[3.292s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.292s]     main()
+[3.292s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.292s]     raise e
+[3.292s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.292s]     package = parse_package_string(
+[3.293s]               ^^^^^^^^^^^^^^^^^^^^^
+[3.293s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[3.293s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[3.293s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces/package.xml':
+[3.293s] The manifest contains invalid XML:
+[3.293s] junk after document element: line 2, column 0
+[3.335s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.335s]   execute_process(/usr/bin/python3
+[3.335s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.335s]   /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces/package.xml
+[3.335s]   /home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces/ament_cmake_core/package.cmake)
+[3.335s]   returned error code 1
+[3.335s] Call Stack (most recent call first):
+[3.335s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.335s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[3.335s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[3.335s] 
+[3.335s] [0m
+[3.336s] -- Configuring incomplete, errors occurred!
+[3.346s] Invoked command in '/home/sicou2/CSCE452/Project3/Project3-Python/build/project3_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sicou2/CSCE452/Project3/Project3-Python/src/project3_interfaces -DCMAKE_INSTALL_PREFIX=/home/sicou2/CSCE452/Project3/Project3-Python/install/project3_interfaces

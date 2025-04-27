@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from project3_interfaces.msg import PersonCandidates, PersonTracks
+from project3_interfaces.msg import PersonCandidates, PersonTracks, PersonTrack
 from geometry_msgs.msg import Point
 from .utils import create_kalman_filter
 import numpy as np
